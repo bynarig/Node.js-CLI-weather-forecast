@@ -12,7 +12,7 @@ const printSuccess = (message) => {
 const printHelp = () => {
     console.log(
         dedent(`${chalk.bgCyan(" HELP ")}
-         Without parameters - displaynig forecast
+         Without parameters - displaying forecast
          -s [CITY] for setting city
          -h to display HELP menu
          -t [API_KEY] to save the weather api key`
